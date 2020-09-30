@@ -1,5 +1,4 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
 
 //----------------------------------------------------------------------------
 // REST Client for SMS-API from LABZEI
@@ -12,6 +11,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 // @version   1.0
 // @updated   26/08/2020
 //----------------------------------------------------------------------------
+
 class CloudsmsClient {
 
     private $_host;
